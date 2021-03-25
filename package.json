@@ -1,0 +1,47 @@
+{
+    "name": "zen-vscode-snippets",
+    "displayName": "zen-vscode-snippets",
+    "description": "Snippets that will supercharge my workflow",
+    "icon": "images/logo.png",
+    "version": "0.0.4",
+    "publisher": "Zenquan",
+    "engines": {
+        "vscode": "^1.54.0"
+    },
+    "scripts": {
+        "build": "vsce package -o zen-vscode-snippets-$npm_package_version.vsix",
+        "publish": "vsce publish",
+        "patch": "vsce publish patch"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascript",
+                "path": "./snippets/cle.code-snippets"
+            },
+            {
+                "language": "vue",
+                "path": "./snippets/vue2.code-snippets"
+            },
+            {
+                "language": "vue-html",
+                "path": "./snippets/uniapp/vue-html.code-snippets"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/uniapp/js.code-snippets"
+            },
+            {
+                "language": "css",
+                "path": "./snippets/uniapp/css.code-snippets"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/cle.code-snippets"
+            }
+        ]
+    }
+}

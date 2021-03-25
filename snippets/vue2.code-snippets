@@ -1,0 +1,41 @@
+{
+  "Vue2.0 template snippet": {
+		"prefix": "vue2",
+		"body": [
+			"<template>",
+			"\t<div>",
+			"\t</div>",
+			"</template>",
+			"<script>",	
+			"export default {",
+			"\tdata () {",
+			"\t\treturn {",
+			"\t\t}",
+			"\t},",
+			"\tprops: {",	
+			"\t},",
+			"\tmethods: {",
+			"\t},",
+			"\tcomputed: {",
+			"\t},",
+			"\twatch: {",
+			"\t},",
+			"\tcomponents: {",
+			"\t},",
+			"\tcreated() {",
+			"\t},",
+			"\tmounted() {",
+			"\t},",
+			"\tupdated() {",
+			"\t},",
+			"\tdestroyed() {",
+			"\t}",
+			"};",
+			"</script>",
+			"<style lang=\"scss\" scoped>",
+			"</style>"
+		],
+		"description": "Vue2.0 snippet",
+		"scope": "vue"
+	}
+}
