@@ -1,14 +1,14 @@
 # zen-vscode-snippets
 
-- cle
-- vue2
+- [x] cle
+- [x] vue2
 - [ ] React
 - [ ] vue3
-- uniapp
+- [x] uniapp
 
 ## TODO
 
-- [ ]根据模板生成snippets的脚本
+- [ ] 根据模板生成snippets的脚本
 
 
 ## 感谢
