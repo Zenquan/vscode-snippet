@@ -3,7 +3,7 @@
 vscode插件市场搜索`zen-vscode-snippets`或者 https://marketplace.visualstudio.com/items?itemName=Zenquan.zen-vscode-snippets
 - [x] cle
 - [x] vue2
-- [ ] React
+- [ ] react
 - [ ] vue3
 - [x] uniapp
 
